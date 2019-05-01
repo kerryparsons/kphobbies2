@@ -1,0 +1,168 @@
+body {
+  background-image: url("wool.jpg");
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  /*--body for all pages has a image and font with optional added if the first options don't load.*/
+}
+
+
+
+a {
+	text-decoration: none;
+	color:#778899;
+	/*--a tag formatting no bullets, text colours to match all other text.*/
+}
+
+a:hover{
+	color:red;
+	/*--a tag formatting to change to red when hovering with mouse.*/
+}
+
+a:active{
+	color:black;
+	/*--a tag formatting to change to black when clicked or active.*/
+}
+
+
+
+.column {
+  float: right;
+  width: 50%;
+  /* Columns floats 50/50 within main section */
+}
+
+
+#header{
+	background-color:#708090;
+	text-align: center;
+	color:#DCDCDC;
+	/*-- # is used to select an element with a specific id, followed by the id of the element. In the header the background colour is matched with the footer and the text aligned to the centre --*/
+}
+
+#header{
+	border-style: dotted;
+    border-color: black;
+	/*-- setting header border to black dotted--*/
+}
+
+#container{
+	background-color: #E6E6FA;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#778899;
+	/*-- setting the formatting for the container section with margins and text colour--*/
+}
+
+#container{
+	border-style: solid;
+    border-color: black;
+	/*-- adding a solid black border to the container section--*/
+}
+
+#content{
+	padding: 10px;	
+	/*-- adding some space between the text and the content section --*/
+	
+}
+
+#nav{
+	width: 30%;
+	float: left;
+	/*-- Nav section is 30% of the content section and floating to the left to create a navigation bar--*/
+}
+#nav ul{
+	list-style-type: none;
+	/*-- removing the bullet points from the list--*/
+}
+	
+	
+#main{
+	width:70%;
+	float:right
+	/*-- Main text is 70% of the content section and floating to the right--*/
+}
+
+
+#main2{
+	float: right;
+	/*-- comments--*/
+}
+
+#main3{
+	float: center;
+}
+
+
+table{
+	color:#778899;
+}
+
+table{
+	width:70%;
+	/*-- set to 70% align with the main section--*/
+	
+}
+th{
+	text-align: left;
+	/*-- to align the table header text to the left--*/
+}
+
+table,th,td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	/*-- adding a border and collapse the borders do there is no gap between the outside and cell borders--*/
+}
+
+th,td {
+	padding:5px;
+	/*adding some padding between the text and the border*/
+}
+
+form{
+	Width:100px;
+	/*set the width of the form to 100% of the page*/
+}
+
+input{
+	Width: 100%;
+	padding: 2px;
+	/*adding some padding between the text and the border*/
+}
+
+textarea{
+	resize: vertical-align;
+	max-height: 100px
+	/*--set text area to be adjustable vertically with to a maximum of 100px--*/
+}
+
+input, textarea{
+	outline: none;
+	border: 1px solid #2F4F4F;
+	/*--no outline with a border or 1px set to the colour to match the header and footer -*/
+}
+
+input:focus, textarea:focus {
+	box-shadow: 0 0 4px red;
+	border:1px solid red;
+	/*--set textarea and input focus to apply box shadow in red when areas are active  --*/
+}
+
+#footer{
+	clear: both;
+	background-color:#708090;
+	text-align:right;
+	color:#DCDCDC
+	/*-- clear both cancels the floating elements for the Navigation and Main sections. Text align to the right with colours for background and text to match the header--*/
+}
+
+#footer{
+	border-style: dotted;
+    border-color: black;
+	/*-- border style black and dotted to match the header--*/
+}
+
+#footer{
+	padding:10px;
+	/*-- add some padding between the text and the border --*/
+}
